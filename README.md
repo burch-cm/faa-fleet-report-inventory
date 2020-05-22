@@ -7,7 +7,7 @@ Attribute | Value
 --------- | ------
 **Name** | Leased and Owned Inventory by LOB\nLeased and Owned Inventory Baseline Comparison
 **Frequency** | monthly
-**Location** | [KSN Fleet Management Reporting](https://ksn2.faa.gov/arc/arc/Logistics/alo400/FleetMgmt/SitePages/Reporting.aspx)\n[FAA Fleet Reporting](https://ksn2.faa.gov/arc/arc/Logistics/alo400/FleetMgmt/FleetReporting/SitePages/Documents.aspx)  
+**Location** | [KSN Fleet Management Reporting](https://ksn2.faa.gov/arc/arc/Logistics/alo400/FleetMgmt/SitePages/Reporting.aspx)<br/>[FAA Fleet Reporting](https://ksn2.faa.gov/arc/arc/Logistics/alo400/FleetMgmt/FleetReporting/SitePages/Documents.aspx)  
 **Owner Office** | FAA APM-400 Fleet Manager
 **Owner Name** | Eugene Tumblin (OST)
 **Admin Name** | Christopher Burch (CTR)
@@ -20,9 +20,7 @@ The FAA Leased and Owned Inventory and Baseline Comparison report looks at curre
 ## Linked Reports  
 Upstream | Downstream
 --- | ---
-None | [FAA Fleet Low Utilization Report](https://github.com/burch-cm/faa-fleet-report-low-utilization)
- | [FAA Fleet Fuel Use Report](https://github.com/burch-cm/faa-fleet-report-fuel-use)
- | [FAA Fleet CRASH Report](https://github.com/burch-cm/faa-fleet-report-crash)
+None | [FAA Fleet Low Utilization Report](https://github.com/burch-cm/faa-fleet-report-low-utilization)<br/>[FAA Fleet Fuel Use Report](https://github.com/burch-cm/faa-fleet-report-fuel-use)<br/>[FAA Fleet CRASH Report](https://github.com/burch-cm/faa-fleet-report-crash)
 
  ## Inputs  
  #### Input  

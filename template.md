@@ -1,4 +1,4 @@
-# /<report title>
+# \<report title>
 
 ***
 ## Report Information

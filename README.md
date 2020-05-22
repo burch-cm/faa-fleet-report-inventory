@@ -31,10 +31,13 @@ None | [FAA Fleet Low Utilization Report](https://github.com/burch-cm/faa-fleet-
 
 </div>
 
+<div id="input-tables">
+
  ## Inputs  
+
  #### Input  
 
-<div class="attribute-table" id="input-table">
+<div class="attribute-table">
 
  Attribute | Value
  --- | ---
@@ -43,6 +46,8 @@ None | [FAA Fleet Low Utilization Report](https://github.com/burch-cm/faa-fleet-
  **Origin** | GSA Drive Thru
  **Filename** | Customized_Inventory_Report_Agency_069_Bureau_05.csv  
 **Link** | https://drivethru.gsa.gov
+
+</div>
 
 </div>
 

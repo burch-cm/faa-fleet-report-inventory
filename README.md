@@ -1,24 +1,23 @@
-<style>
-ul, li{ list-style: none ;
-		margin: 0;
-		padding: 0 }
-</style>
-
 # FAA Fleet Inventory Report  
 
 ***
 ## Report Information
 
 **Report Name(s)**:  
-*	Leased and Owned Inventory by LOB  
-*	Leased and Owned Inventory Baseline Comparison  
+	Leased and Owned Inventory by LOB  
+	Leased and Owned Inventory Baseline Comparison  
+
 **Frequency**: Monthly  
+
 **Location**:  
 *	*Internal*: [KSN Fleet Management Reporting](https://ksn2.faa.gov/arc/arc/Logistics/alo400/FleetMgmt/SitePages/Reporting.aspx)  
-*	*External*: [FAA Fleet Reporting](https://ksn2.faa.gov/arc/arc/Logistics/alo400/FleetMgmt/FleetReporting/SitePages/Documents.aspx)  
-**Owner Office**: FAA APM-400 Fleet  
-**Owner Name**: Christopher Burch (CTR)  
-**Owner Email**: christopher <dot> m-ctr <dot> burch <at> faa <dot> gov  
+*	*External*: [FAA Fleet Reporting](https://ksn2.faa.gov/arc/arc/Logistics/alo400/
+
+FleetMgmt/FleetReporting/SitePages/Documents.aspx)  
+**Owner Office**: FAA APM-400 Fleet Manager  
+**Report Owner**: Eugene Tumblin (OST)  
+**Report Admin/POC**: Christopher Burch (CTR)  
+**Admin Email**: christopher <dot> m-ctr <dot> burch <at> faa <dot> gov  
 **Reference**: None  
 
 ## Report Purpose
@@ -34,46 +33,51 @@ The FAA Leased and Owned Inventory and Baseline Comparison report looks at curre
 
 ### Required For
 *List all reports which use this report as an input and which may be affected by changes in this report.*    
-[FAA Fleet Low Utilization Report](https://github.com/burch-cm/faa-fleet-report-low-utilization)  
-[FAA Fleet Fuel Use Report](https://github.com/burch-cm/faa-fleet-report-fuel-use)  
-[FAA Fleet CRASH Report](https://github.com/burch-cm/faa-fleet-report-crash)
+* [FAA Fleet Low Utilization Report](https://github.com/burch-cm/faa-fleet-report-low-utilization)  
+* [FAA Fleet Fuel Use Report](https://github.com/burch-cm/faa-fleet-report-fuel-use)  
+* [FAA Fleet CRASH Report](https://github.com/burch-cm/faa-fleet-report-crash)
 
 ***
 
 ## Report Inputs
 **Input**:  
-*	**Name**: Customized Inventory Report by Agency  
-*	**File Type**: CSV  
-*	**Origin**: GSA Drive Thru  
-*	**Filename**: Customized_Inventory_Report_Agency_069_Bureau_05.csv  
-*	**Link**: https://drivethru.gsa.gov  
+	**Name**: Customized Inventory Report by Agency  
+	**File Type**: CSV  
+	**Origin**: GSA Drive Thru  
+	**Filename**: Customized_Inventory_Report_Agency_069_Bureau_05.csv  
+	**Link**: https://drivethru.gsa.gov  
+
 **Input**:  
-*   **Name**: MVS All Vehicle Inventory  
-*   **File Type**: XLSX  
-*   **Origin**: FAAMVS  
-*   **Filename**: AllVehicleInventory.xlsx  
-*   **Link**: https://mvs.faa.gov  
+   **Name**: MVS All Vehicle Inventory  
+   **File Type**: XLSX  
+   **Origin**: FAAMVS  
+   **Filename**: AllVehicleInventory.xlsx  
+   **Link**: https://mvs.faa.gov  
+
 **Input**:  
-*	**Name**: Delphi Datastring by Tag  
-*	**File Type**: XLSX  
-*	**Origin**: FAAMVS  
-*	**Filename**: DelphiDatastringByTag.xlsx  
-*	**Link**: https://mvs.faa.gov  
+	**Name**: Delphi Datastring by Tag  
+	**File Type**: XLSX  
+	**Origin**: FAAMVS  
+	**Filename**: DelphiDatastringByTag.xlsx  
+	**Link**: https://mvs.faa.gov  
+
 **Input**:  
-*	**Name**: Fuel Use Report  
-*	**File Type**: CSV  
-*	**Origin**: GSA Drive Thru  
-*	**Filename**: FUR-G-Summary-Vehicle-for-069-05.csv  
+	**Name**: Fuel Use Report  
+	**File Type**: CSV  
+	**Origin**: GSA Drive Thru  
+	**Filename**: FUR-G-Summary-Vehicle-for-069-05.csv  
+
 **Input**:  
-*	**Name**: MVS Owned Mileage  
-*	**File Type**: CSV  
-*	**Origin** FAAMVS  
-*	**Filename**: \<Month>\<Year>FAAMileage.csv  
+	**Name**: MVS Owned Mileage  
+	**File Type**: CSV  
+	**Origin** FAAMVS  
+	**Filename**: \<Month>\<Year>FAAMileage.csv  
+
 **Input**:  
-*	**Name**: MVS Leased Mileage  
-*	**File Type**: CSV  
-*	**Origin** FAAMVS  
-*	**Filename**: \<Month>\<Year>GSAMileage.csv  
+	**Name**: MVS Leased Mileage  
+	**File Type**: CSV  
+	**Origin** FAAMVS  
+	**Filename**: \<Month>\<Year>GSAMileage.csv  
 
 ***
 

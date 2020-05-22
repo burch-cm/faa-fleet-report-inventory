@@ -2,7 +2,8 @@
 
 ***
 ## Report Information
-<div class="attribute-table">
+
+<div class="attribute-table" id="info-table">
 
 Attribute | Value
 --------- | ------
@@ -21,12 +22,20 @@ The FAA Leased and Owned Inventory by LOB is a monthly inventory report of *on r
 The FAA Leased and Owned Inventory and Baseline Comparison report looks at current *on road reportable* motor vehicle inventory levels compared with a baseline inventory from FY2015. This report is used to mesure FAA Fleet progress against fleet size reduction goals.
 
 ## Linked Reports  
+
+<div class="attribute-table" id="linked-table">
+
 Upstream | Downstream
 --- | ---
 None | [FAA Fleet Low Utilization Report](https://github.com/burch-cm/faa-fleet-report-low-utilization)<br/>[FAA Fleet Fuel Use Report](https://github.com/burch-cm/faa-fleet-report-fuel-use)<br/>[FAA Fleet CRASH Report](https://github.com/burch-cm/faa-fleet-report-crash)
 
+</div>
+
  ## Inputs  
  #### Input  
+
+<div class="attribute-table" id="input-table">
+
  Attribute | Value
  --- | ---
  **Name** | Customized Inventory Report by Agency
@@ -34,6 +43,8 @@ None | [FAA Fleet Low Utilization Report](https://github.com/burch-cm/faa-fleet-
  **Origin** | GSA Drive Thru
  **Filename** | Customized_Inventory_Report_Agency_069_Bureau_05.csv  
 **Link** | https://drivethru.gsa.gov
+
+</div>
 
 ## Report Procedures
 FAA Fleet Inventory reports are currently generated using automated scripts located in the [FAA Fleet Inventory Report Tool repo](https://github.com/burch-cm/faa_fleet_inventory). Currently, the inventory is generated via [R](https://www.r-project.org) scripts in a [Shiny](https://shiny.rstudio.com) web interface.  

@@ -7,7 +7,7 @@
 
 Attribute | Value
 --------- | ------
-**Name** | Leased and Owned Inventory by LOB\nLeased and Owned Inventory Baseline Comparison
+**Name** | Leased and Owned Inventory by LOB</br>Leased and Owned Inventory Baseline Comparison
 **Frequency** | monthly
 **Location** | [KSN Fleet Management Reporting](https://ksn2.faa.gov/arc/arc/Logistics/alo400/FleetMgmt/SitePages/Reporting.aspx)<br/>[FAA Fleet Reporting](https://ksn2.faa.gov/arc/arc/Logistics/alo400/FleetMgmt/FleetReporting/SitePages/Documents.aspx)  
 **Owner Office** | FAA APM-400 Fleet Manager

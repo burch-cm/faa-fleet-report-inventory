@@ -54,4 +54,4 @@ None | [FAA Fleet Low Utilization Report](https://github.com/burch-cm/faa-fleet-
 ## Report Procedures
 FAA Fleet Inventory reports are currently generated using automated scripts located in the [FAA Fleet Inventory Report Tool repo](https://github.com/burch-cm/faa_fleet_inventory). Currently, the inventory is generated via [R](https://www.r-project.org) scripts in a [Shiny](https://shiny.rstudio.com) web interface.  
 
-Procedures for manually generating the report can be found in the [FAA Fleet Reports Process](https://github.com/burch-cm/faa-fleet-report-inventory/docs/FAA Fleet Reports Process.docx). This document is out of date but can be used to generate the report if automated tools are not available.
+Procedures for manually generating the report can be found in the [FAA Fleet Reports Process](https://github.com/burch-cm/faa-fleet-report-inventory/docs/FAA_Fleet_Reports_Process.docx). This document is out of date but can be used to generate the report if automated tools are not available.
